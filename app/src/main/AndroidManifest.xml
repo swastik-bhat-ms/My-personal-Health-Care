@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.personalhealthcare"
+    tools:ignore="CoarseFineLocation">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PersoalHeathCare"
+        tools:targetApi="tiramisu">
+
+        <receiver android:name="com.example.personalhealthcare.notfication" />
+
+        <activity
+            android:name="com.example.personalhealthcare.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.example.personalhealthcare.Log_in"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.personalhealthcare.signup"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.personalhealthcare.chat"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.personalhealthcare.Home_page"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.personalhealthcare.adminpage"
+            android:exported="true"></activity>
+
+    </application>
+
+</manifest>

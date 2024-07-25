@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appointmentFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointmentFragment">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="391dp"
+        android:layout_height="352dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="appointment"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:hint="enter or edit event"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@android:string/ok"
+        android:contextClickable="true"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.7"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/displaydateevent"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:text="saved event display"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <Button
+        android:id="@+id/deleteevent"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Delete event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/displaydateevent"
+        app:layout_constraintVertical_bias="0.612" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

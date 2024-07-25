@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".settings">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="247dp">
+
+        <TextView
+            android:id="@+id/nameid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <Button
+            android:id="@+id/edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:text="Edit Profile"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dp"
+            android:layout_width="119dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textAlignment="textStart" />
+
+    <ProgressBar
+        android:id="@+id/delete_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="177dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+
+</LinearLayout>

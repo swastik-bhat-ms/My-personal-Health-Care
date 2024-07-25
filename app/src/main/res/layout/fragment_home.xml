@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".homeFragment">
+
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="80dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.093"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/inphonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/user" />
+
+                <ImageButton
+                    android:id="@+id/botbutton"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="144dp"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/bot"
+                    android:cropToPadding="true"
+                    android:elevation="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hrum_robo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.103"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
+
+
+                <ImageButton
+                    android:id="@+id/appointment"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="124dp"
+                    android:layout_marginEnd="24dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:contentDescription="appointment"
+                    android:cropToPadding="true"
+                    android:elevation="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/calender"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/botbutton"
+                    app:layout_constraintTop_toTopOf="@+id/user" />
+
+                <ImageButton
+                    android:id="@+id/cancelappoint"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="52dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:contentDescription="Histroy"
+                    android:cropToPadding="true"
+                    android:elevation="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cancelapp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/botbutton" />
+                <!--        android:src="@drawable/histroy"-->
+
+                <ImageButton
+                    android:id="@+id/availdoc"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="52dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@color/transparent"
+                    android:contentDescription="availdoc"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/doctor_white_coat"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/cancelappoint"
+                    app:layout_constraintTop_toBottomOf="@+id/appointment" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="76dp"
+                    android:clickable="true"
+                    android:contentDescription="108"
+                    android:src="@drawable/ambu"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cancelappoint" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton2"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="76dp"
+                    android:clickable="true"
+                    android:contentDescription="112"
+                    android:src="@drawable/poli"
+                    app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
+                    app:layout_constraintTop_toBottomOf="@+id/cancelappoint" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton3"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="76dp"
+                    android:clickable="true"
+                    android:contentDescription="100"
+                    android:src="@drawable/jness_police_car"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.174"
+                    app:layout_constraintStart_toEndOf="@+id/floatingActionButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/cancelappoint" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

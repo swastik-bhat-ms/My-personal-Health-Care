@@ -1,0 +1,199 @@
+{
+  "project_info": {
+    "project_number": "218268805390",
+    "firebase_url": "https://personalhealthcare-87e0f-default-rtdb.firebaseio.com",
+    "project_id": "personalhealthcare-87e0f",
+    "storage_bucket": "personalhealthcare-87e0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218268805390:android:6bb594790276312efc4f5f",
+        "android_client_info": {
+          "package_name": "cb.solutions.alumniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218268805390-p6krau956n8vmrb3e3b4kuifk1ocptf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTw-Ds90aUZnquzHve9Mx081gqVbkmLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218268805390-4qpar5h8g9406m95gcbgnp3lg90ojvva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "218268805390-c391qr2l6gff1pq5c8snhsabp1f2nfe7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cb.solutions.alumniapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218268805390:android:0f6ba0bdb6f41509fc4f5f",
+        "android_client_info": {
+          "package_name": "com.example.alumniregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218268805390-p6krau956n8vmrb3e3b4kuifk1ocptf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTw-Ds90aUZnquzHve9Mx081gqVbkmLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218268805390-4qpar5h8g9406m95gcbgnp3lg90ojvva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "218268805390-c391qr2l6gff1pq5c8snhsabp1f2nfe7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cb.solutions.alumniapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218268805390:android:8943f39aa42bccb1fc4f5f",
+        "android_client_info": {
+          "package_name": "com.example.feedback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218268805390-p6krau956n8vmrb3e3b4kuifk1ocptf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTw-Ds90aUZnquzHve9Mx081gqVbkmLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218268805390-4qpar5h8g9406m95gcbgnp3lg90ojvva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "218268805390-c391qr2l6gff1pq5c8snhsabp1f2nfe7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cb.solutions.alumniapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218268805390:android:d01851b639cf5cb5fc4f5f",
+        "android_client_info": {
+          "package_name": "com.example.persoalheathcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218268805390-p6krau956n8vmrb3e3b4kuifk1ocptf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTw-Ds90aUZnquzHve9Mx081gqVbkmLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218268805390-4qpar5h8g9406m95gcbgnp3lg90ojvva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "218268805390-c391qr2l6gff1pq5c8snhsabp1f2nfe7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cb.solutions.alumniapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218268805390:android:74f9f57456bd14fbfc4f5f",
+        "android_client_info": {
+          "package_name": "com.example.personalhealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218268805390-3ijqiaths3qh0u4m02d9gpjr9u1drjkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.personalhealthcare",
+            "certificate_hash": "d3d627e25a9a46ffc2b26ffe180322ab459e53bb"
+          }
+        },
+        {
+          "client_id": "218268805390-p6krau956n8vmrb3e3b4kuifk1ocptf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTw-Ds90aUZnquzHve9Mx081gqVbkmLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218268805390-4qpar5h8g9406m95gcbgnp3lg90ojvva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "218268805390-c391qr2l6gff1pq5c8snhsabp1f2nfe7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cb.solutions.alumniapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Personal Health Care</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="home">home</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="bot">Bot</string>
+    <string name="personal_health_care">personal \nhealth \ncare</string>
+    <string name="log_in">log in</string>
+    <string name="not_have_a_account">Not have an Account</string>
+    <string name="sign_up">sign up</string>
+    <string name="Log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="password">password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="male">male</string>
+    <string name="email_phone">Email/Phone</string>
+    <string-array name="user">
+        <item>Patient</item>
+        <item>Doctor</item>
+    </string-array>
+    <string-array name="designation">
+        <item>Select Designation</item>
+        <item>Pediatrician</item>
+        <item>Gynecologists</item>
+        <item>Child Psychologist/Psychiatrist</item>
+        <item>Dermatologist</item>
+        <item>Cardiologist</item>
+        <item>Ear, Nose and Throat Specialist</item>
+        <item>Neurologist</item>
+        <item>Therapist</item>
+        <item>Psychologist</item>
+        <item>Audiologist</item>
+        <item>Dentist</item>
+        <item>Allergist</item>
+        <item>Endocrinologist</item>
+    </string-array>
+    <string-array name="location">
+        <item>Select District</item>
+        <item>Bagalkot</item>
+        <item>Ballari</item>
+        <item>Bangalore Rural</item>
+        <item>Bangalore Urban</item>
+        <item>Belgaum</item>
+        <item>Bidar</item>
+        <item>Bijapur</item>
+        <item>Chamarajanagara</item>
+        <item>Chikkaballapura</item>
+        <item>Chikmagalur</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Gulbarga</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysore</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shimoga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Vijayanagara</item>
+        <item>Yadgir</item>
+    </string-array>
+    <string-array name="body_part">
+        <item>Select body Part</item>
+        <item>Head</item>
+        <item>Stomach</item>
+        <item>Eye</item>
+    </string-array>
+    <string name="title_activity_doctor_main_page">Doctor_MainPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_doctor_page">Doctor_page</string>
+    <string name="locality_pincode">Locality Pincode</string>
+    <string name="change">Change</string>
+</resources>

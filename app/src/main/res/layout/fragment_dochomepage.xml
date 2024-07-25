@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dochomefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/docrefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".homeFragment">
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/docname" />
+
+                <TextView
+                    android:id="@+id/docname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/docphn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/user" />
+
+                <TextView
+                    android:id="@+id/docdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/docphn" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    app:flow_horizontalAlign="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.488"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/docdes">
+
+                    <ImageButton
+                        android:id="@+id/docbotbutton"
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/bot"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/user_approve" />
+
+                    <ImageButton
+                        android:id="@+id/docappointment"
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="appointment"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/primary_appointment" />
+
+                    <ImageButton
+                        android:id="@+id/doccancel"
+                        android:layout_width="325dp"
+                        android:layout_height="114dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginBottom="10dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="cancel appointment"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/denied" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="44dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.695"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/doc108"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:clickable="true"
+                        android:contentDescription="108"
+                        android:src="@drawable/ambulance_128x128_px" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/doc112"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="5dp"
+                        android:clickable="true"
+                        android:contentDescription="112"
+                        android:src="@drawable/jness_police_car" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/doc100"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="310dp"
+                        android:layout_marginTop="5dp"
+                        android:clickable="true"
+                        android:contentDescription="100"
+                        android:src="@drawable/badge"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>
